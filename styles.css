@@ -1,0 +1,256 @@
+/* Base styles */
+/* Your existing CSS code goes here */
+
+*{
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-vector/abstract-blue-light-pipe-speed-zoom-black-background-technology_1142-9530.jpg");
+}
+.navbar{
+  height: 4rem;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.navbar .heading:hover{
+  text-decoration: underline rgb(219, 208, 94);
+  cursor: pointer;
+}
+
+/* ----------------------content1--------------------- */
+
+.content1{
+  display: flex;
+  padding-top: .6rem;
+}
+.content1 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: transform 0.9s;
+}
+.content1 img:hover{
+  transform: scale(1.05);
+  box-shadow: rgb(251, 255, 255);
+  box-shadow: 5px 5px 8px rgb(107, 227, 232);
+}
+.content1 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+
+/* ----------------------content2-------------------- */
+
+.content2{
+  display: flex;
+  padding-top: .6rem;
+}
+.content2 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: filter 0.3s ease;
+}
+.content2 img:hover{
+  filter: brightness(0.8);
+}
+.content2 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+
+/* -------------------content3----------------------- */
+.content3{
+  display: flex;
+  padding-top: .6rem;
+}
+.content3 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: transform 0.9s;
+}
+.content3 img:hover{
+  transform: scale(1.05);
+  box-shadow: rgb(251, 255, 255);
+  box-shadow: 5px 5px 8px rgb(107, 227, 232);
+}
+.content3 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+
+/* --------------------content4----------------- */
+
+.content4{
+  display: flex;
+  padding-top: .6rem;
+}
+.content4 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: filter 0.3s ease;
+}
+.content4 img:hover{
+  filter: brightness(0.8);
+}
+.content4 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+
+/* ------------------content5----------------- */
+
+.content5{
+  display: flex;
+  padding-top: .6rem;
+}
+.content5 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: transform 0.9s;
+}
+.content5 img:hover{
+  transform: scale(1.05);
+  box-shadow: rgb(251, 255, 255);
+  box-shadow: 5px 5px 8px rgb(107, 227, 232);
+}
+.content5 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+
+/* --------------------content6----------------- */
+
+.content6{
+  display: flex;
+  padding-top: .6rem;
+}
+.content6 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: filter 0.3s ease;;
+}
+.content6 img:hover{
+  filter: brightness(0.8);
+}
+.content6 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+
+/* ----------------content7----------------- */
+
+.content7{
+  display: flex;
+  padding-top: .6rem;
+}
+.content7 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: transform 0.9s;
+}
+.content7 img:hover{
+  transform: scale(1.05);
+  box-shadow: rgb(251, 255, 255);
+  box-shadow: 5px 5px 8px rgb(107, 227, 232);
+}
+.content7 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+
+/* ---------------content8-------------------- */
+
+.content8{
+  display: flex;
+  padding-top: .6rem;
+}
+.content8 img{
+  height: 20rem;
+  width: 30rem;
+  padding: .3rem;
+  transition: filter 0.3s ease;
+}
+.content8 img:hover{
+  filter: brightness(0.8);
+}
+.content8 p{
+  padding: 7rem 3rem;
+  font-size: 1.4rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(147, 230, 232);
+}
+footer{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+/* Media Queries */
+
+/* Tablets (768px and up) */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 1.5rem;
+  }
+
+  .content1, .content3, .content5, .content7{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content2, .content4, .content6, .content8{
+    flex-direction: column-reverse;
+  }
+
+  .content1 p, .content2 p, .content3 p, .content4 p, .content5 p, .content6 p, .content7 p, .content8 p {
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+  }
+
+  .content1 img, .content2 img, .content3 img, .content4 img, .content5 img, .content6 img, .content7 img, .content8 img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+/* Mobile (480px and up) */
+@media (max-width: 480px) {
+  .navbar {
+    font-size: 1.2rem;
+  }
+
+  .content1 p, .content2 p, .content3 p, .content4 p, .content5 p, .content6 p, .content7 p, .content8 p {
+    padding: 1rem 0.5rem;
+    font-size: 1rem;
+    overflow: hidden;
+  }
+
+  .content1 img, .content2 img, .content3 img, .content4 img, .content5 img, .content6 img, .content7 img, .content8 img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+}
